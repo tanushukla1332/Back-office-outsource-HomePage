@@ -1,0 +1,89 @@
+
+  .text-box {
+    padding: 20px;
+    border-radius:2px;
+    box-shadow: 0px 4px 4px 4px #00000038;
+  }
+  .carousel-item img {
+    max-height: auto;
+    object-fit: cover;
+  
+  }
+  .thirdsecdiv{
+    box-shadow: 0px 4px 4px 4px #00000027;
+    padding: 0px 20px ;
+    height: 300px ;
+    transition: 3ms ease-in-out;
+
+  }
+  .thirdsecdiv:hover{
+    transform:translateY(-10px);
+
+  }
+  .thirdsecdiv img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .icon-circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .icon-circle__outer {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 10px solid; /* Adjust border width as needed */
+  }
+  
+  .icon-circle__inner {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon-circle__number {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .icon-circle__icon {
+    font-size: 48px;
+    margin: 10px 0;
+  }
+  
+  .icon-circle__text {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  /* Color variations */
+  .icon-circle--green .icon-circle__outer {
+    border-color: green;
+  }
+  
+  .icon-circle--purple .icon-circle__outer {
+    border-color: purple;
+  }
+  
+  .icon-circle--orange .icon-circle__outer {
+    border-color: orange;
+  }
+  
+  .icon-circle--pink .icon-circle__outer {
+    border-color: pink;
+  }
+ 

@@ -1,0 +1,25 @@
+*{
+  font-family: Inter, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold
+    "slnt" 0;
+}
+.hed1{
+  font-size: 48px ;
+  font-weight: 900;
+}
+.hed1:hover{
+  text-shadow: 0px 0px 2px #fff, 0px 0px 2px #FE5A0E;
+  cursor: pointer;
+  font-weight: 900;
+}
+.para{
+  font-size: 14px;
+  font-weight: 450;
+  color: #635A5A;
+}
+.hed4{
+  font-size: 18px;
+  font-weight: 550;
+  color: #635A5A;
+}
