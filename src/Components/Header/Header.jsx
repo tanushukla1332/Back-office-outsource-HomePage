@@ -42,7 +42,7 @@ export default function Header() {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
-                        <Nav className=" mx-auto p-0 d-flex align-items-center gap-1 gap-lg-5 gap-xl-5  ga-md-5 navbar-header justify-content-center" navbarScroll>
+                        <Nav className=" mx-auto p-0 d-flex align-items-center gap-1 gap-lg-4 gap-xl-4  ga-md-4 navbar-header justify-content-center" navbarScroll>
                             <Nav.Link as={Link} to="/doctors">Home</Nav.Link>
                             <Nav.Link as={Link} to="/doctors">About Company</Nav.Link>
                             <Nav.Link as={Link} to="/health">Our Services</Nav.Link>

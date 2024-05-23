@@ -19,7 +19,7 @@
     text-decoration: none !important;
     color: #f2f2f2;
     font-weight: 500;
-    font-size: 19px;
+    font-size: 18px;
   }
   .dropdown-menu.show {
     font-weight: 500;
@@ -42,7 +42,7 @@
   }
   @media (min-width: 1400px) {
     .header{
-      height:30px !important;
+      height:40px !important;
     }
   }
   

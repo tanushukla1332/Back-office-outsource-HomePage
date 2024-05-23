@@ -1,6 +1,6 @@
 .main-form-page {
-    width: 500px !important;
-    height: 634px !important;
+    width: 400px !important;
+    height: 424px !important;
     background-color: white;
     box-shadow: 0 8px 5px 0px rgb(0, 0, 0, 25%) !important;
     display: flex !important;
@@ -10,10 +10,10 @@
 }
 .img-form {
     position: absolute !important;
-    left: 50px !important; /* Adjust from left to right */
+    left:70px !important; /* Adjust from left to right */
 }
 .form-control-main-page {
-    width: 75% !important;
+    width: 60% !important;
     margin: auto;
     border: none !important;
     border-radius: 0px !important;
@@ -34,7 +34,7 @@
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
-    font-size: 20.5px !important;
+    font-size: 16.5px !important;
     width: 162px !important;
    
 }

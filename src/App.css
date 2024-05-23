@@ -5,7 +5,7 @@
     "slnt" 0;
 }
 .hed1{
-  font-size: 48px ;
+  font-size: 40px ;
   font-weight: 900;
 }
 .hed1:hover{
@@ -14,12 +14,17 @@
   font-weight: 900;
 }
 .para{
-  font-size: 14px;
-  font-weight: 450;
+  font-size:15px;
+  font-weight: 500;
   color: #635A5A;
 }
 .hed4{
   font-size: 18px;
   font-weight: 550;
   color: #635A5A;
+}
+.hed3{
+  font-size: 22px;
+  font-weight: 700;
+  color: #151414;
 }
