@@ -77,21 +77,14 @@ export default function Footer() {
                             <img src={twitter} alt="twitter-logo" className='img-fluid' />
                         </div>
                         <div class='icon-border'></div>
-
-
-
                     </Col>
                 </Col>
-
-
             </Row>
             <Row style={{ backgroundColor: "#151414" }} className='d-flex aign-items-center justify-content-center'>
                 <Col md={10} className='d-flex aign-items-center justify-content-between border' >
                     <p className='para text-white'>Privacy Policy   Term & Service</p>
                     <p className='para text-white'>© COPYRIGHT 2023 Outsource2backoffice. ALL RIGHTS RESERVED.</p>
-
                 </Col>
-
             </Row>
         </>
     )
