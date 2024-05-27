@@ -1,12 +1,58 @@
+.banner-homepage{
+  position: relative;
+}
 
+
+.banner-homepage > h1 {
+  position: absolute;
+  top: -500px;
+  left: 5%;
+}
+.banner-homepage>h1>.firststhed{
+  color: #000000;
+  font-weight: 800;
+  letter-spacing: 3px;
+  font-size: 48px;
+}
+.banner-homepage>h1>.iindhed{
+  color: #FE5A0E;
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+.banner-homepage>h1>p .thirdhed{
+  color: #FE5A0E;
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+.banner-homepage >h1>p> .firststhed{
+  color: #000000;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 48px;
+}
+.fourthed{
+  color: #FE5A0E;
+  font-size: 70px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+.fourthhedii{
+  color: #FE5A0E;
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+
+}
 .text-box {
   padding: 20px;
   border-radius: 2px;
   box-shadow: 0px 10px 20px  rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, color 0.3s;
   margin-bottom: 20px; /* Add spacing between boxes */
+  background-color: #ebe9e944;
 }
-
 .text-box h3, .text-box p {
   transition: color 0.3s;
   color: #635A5A;
@@ -34,11 +80,11 @@ background-color: #061B49;
   
   }
   .divfirst{
-    background-image: linear-gradient(to bottom, #FE5A0E, #FF7A00 ) !important;
+    background-image: linear-gradient(to bottom, #f96723, #fc810e ) !important;
 
   }
   .divfirstiind{
-    background-image: linear-gradient(to bottom, #061B49, #0E41AF ) !important;
+    background-image: linear-gradient(to bottom, #2f3644, #2250b3 ) !important;
   }
   .thirdsecdiv{
     box-shadow: 0px 10px 20px  rgba(0, 0, 0, 0.1);
@@ -139,6 +185,8 @@ background-color: #061B49;
   margin: 0 auto;
   padding: 10px;
   position: relative;
+  height: 480px;
+  width: auto;
 }
 .profile{
   position: relative;
@@ -177,34 +225,30 @@ background-color: #061B49;
   
 }
 .faq-header{
-  box-shadow: 0px 15px 40px #9aaacf39 !important;
   background-color: white;
   padding: 8px;
   border-radius: 5px;
   display: flex;
   align-items: center;
   margin: 0;
+  border: 0.5px solid #fad0bc;
 }
-
 .AllbuttonForMove>button{
   color: #FE5A0E !important;
   font-size: 20px !important;
   background-color: transparent !important;
-  border: 2px solid #FE5A0E !important;
-
+  border: 1px solid #FE5A0E !important;
 }
 .div-blog-inside{
-  border:1px solid #FE5A0E !important; 
+  border:1px solid #feaa84ee !important; 
   border-top: 0px  !important;
   padding: 20px;
  
 }
-.main-div-blog{
-  width: 450px;
- 
-}
+
 .main-div-blog>div>img{
-  width: 100%;
+  width: 450px !important;
+  border-radius: 0px;
 }
 .know-more-button-div{
   width: 450px;

@@ -2,15 +2,17 @@ import React, { useState } from 'react';
 import { Row, Col, Card, Button } from 'react-bootstrap';
 import firstImage from '../../../public/Image/Rectangle 278 (1).png';
 import secImage from '../../../public/Image/Rectangle 278 (2).png';
-import thirdImage from '../../../public/Image/Rectangle 278.png';
+import thirdImage from '../../../public/Image/Rectangle 278 (3).png';
 
 
 export default function Section13() {
     const Portdata = [
         { "id": 1, "title": "Lorem  Ipsum ", "subTitle": "printing and typesetting industry. Lorem  Ipsum has been the industry's standard   dummy text ever since the 1500s, when  an unknown printer ", "image": firstImage },
-        { "id": 1, "title": "Lorem  Ipsum ", "subTitle": "printing and typesetting industry. Lorem  Ipsum has been the industry's standard   dummy text ever since the 1500s, when  an unknown printer ", "image": secImage }, { "id": 1, "title": "Lorem  Ipsum ", "subTitle": "printing and typesetting industry. Lorem  Ipsum has been the industry's standard   dummy text ever since the 1500s, when  an unknown printer ", "image": thirdImage },
-        { "id": 1, "title": "Lorem  Ipsum ", "subTitle": "printing and typesetting industry. Lorem  Ipsum has been the industry's standard   dummy text ever since the 1500s, when  an unknown printer ", "image": firstImage },
-        { "id": 1, "title": "Lorem  Ipsum ", "subTitle": "printing and typesetting industry. Lorem  Ipsum has been the industry's standard   dummy text ever since the 1500s, when  an unknown printer ", "image": secImage }, { "id": 1, "title": "Lorem  Ipsum ", "subTitle": "printing and typesetting industry. Lorem  Ipsum has been the industry's standard   dummy text ever since the 1500s, when  an unknown printer ", "image": thirdImage },
+        { "id": 2, "title": "Lorem  Ipsum ", "subTitle": "printing and typesetting industry. Lorem  Ipsum has been the industry's standard   dummy text ever since the 1500s, when  an unknown printer ", "image": secImage }, { "id": 1, "title": "Lorem  Ipsum ", "subTitle": "printing and typesetting industry. Lorem  Ipsum has been the industry's standard   dummy text ever since the 1500s, when  an unknown printer ", "image": thirdImage },
+        { "id": 3, "title": "Lorem  Ipsum ", "subTitle": "printing and typesetting industry. Lorem  Ipsum has been the industry's standard   dummy text ever since the 1500s, when  an unknown printer ", "image": firstImage },
+        { "id": 4, "title": "Lorem  Ipsum ", "subTitle": "printing and typesetting industry. Lorem  Ipsum has been the industry's standard   dummy text ever since the 1500s, when  an unknown printer ", "image": secImage }, { "id": 1, "title": "Lorem  Ipsum ", "subTitle": "printing and typesetting industry. Lorem  Ipsum has been the industry's standard   dummy text ever since the 1500s, when  an unknown printer ", "image": thirdImage },
+        { "id": 5, "title": "Lorem  Ipsum ", "subTitle": "printing and typesetting industry. Lorem  Ipsum has been the industry's standard   dummy text ever since the 1500s, when  an unknown printer ", "image": secImage }, { "id": 1, "title": "Lorem  Ipsum ", "subTitle": "printing and typesetting industry. Lorem  Ipsum has been the industry's standard   dummy text ever since the 1500s, when  an unknown printer ", "image": thirdImage },
+        { "id": 6, "title": "Lorem  Ipsum ", "subTitle": "printing and typesetting industry. Lorem  Ipsum has been the industry's standard   dummy text ever since the 1500s, when  an unknown printer ", "image": secImage }, { "id": 1, "title": "Lorem  Ipsum ", "subTitle": "printing and typesetting industry. Lorem  Ipsum has been the industry's standard   dummy text ever since the 1500s, when  an unknown printer ", "image": thirdImage },
 
     ];
 
@@ -35,7 +37,7 @@ export default function Section13() {
 
     return (
         <>
-            <Row className='d-flex justify-content-center align-items-center pb-5'>
+            <Row className='d-flex justify-content-center align-items-center py-5'>
                 <div className='text-center'>
                     <h1 className='hed1  text-center'>Blogs</h1>
                     <p className='para  text-center text-black'>Innovative Solutions Tailored to Your Needs</p>

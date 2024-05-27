@@ -49,11 +49,12 @@ export default function SectionFirst() {
         ],
         required: true
     };
+
     return (
         <>
-            <Row className='d-flex justify-content-center align-items-center gap-5 py-5'>
+            <Row className='d-flex justify-content-center gap-5 py-5'>
                 <Col md={10}
-                    className='d-flex justify-content-center align-items-center gap-5 py-2'
+                    className='d-flex justify-content-center gap-5  py-2 align-items-center'
                     style={{
                         backgroundImage: `linear-gradient(to right, #00000099, #00000099), url(${bgimg})`,
                         backgroundPosition: "center",
@@ -62,22 +63,24 @@ export default function SectionFirst() {
                         maxWidth: "100%",
                         height: "auto"
                     }} >
-                    <div >
+                    <div className='col-md-7' >
                         <h1 className='hed1 text-white'>Unlock Your Time,
                             Unleash Your Passion</h1>
-                        <p className='para  text-white'  >Time is the most valuable asset in the fast-paced world of business. We
+                        <p className='text-white para'>Time is the most valuable asset in the fast-paced world of business. We
                             understand this, which is why we offer a solution to help you regain control of
                             your schedule. By outsourcing time-consuming tasks to our dedicated virtual
                             staff, you can redirect your energy towards what truly matters – the growth and
-                            prosperity of your business.</p>
-                        <p className='para text-white' >
-                            Our virtual assistants are more than just support; they’re the strategic backbone
-                            of your operations. From administrative tasks to data management, we’ve got
-                            your back. By entrusting us with the minutiae, you gain the freedom to focus on
-                            your core competencies and strategic vision.
+                            prosperity of your business.
+                            <p >
+                            Our virtual assistants are more than just support; they’re the strategic backbone 
+of your operations. From administrative tasks to data management, we’ve got 
+your back. By entrusting us with the minutiae, you gain the freedom to focus on 
+your core competencies and strategic vision.
+                            </p>
                         </p>
+
                     </div>
-                    <div>
+                    <div className='col-md-3'>
                         <FormLayout heading="Ready To Outsource Your Business" formData={formData1} form icons={icons} selectField={selectField1} para="Book A FREE 30-minute Consult 
 Call To Get Started!" />
 

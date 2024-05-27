@@ -1,9 +1,5 @@
 
-.navbar {
-    position: sticky;
-    top: 0;
-    z-index: 1000; /* Adjust z-index as needed */
-  }
+
   
   .dropdown-toggle::after {
     color: white !important;
@@ -28,12 +24,13 @@
   .for-header-button{
     display: inline-flex !important;
     position: relative !important;
-    font-weight:600 !important;
-    font-size: 20px !important;
-    border-radius: 20px !important;
+    font-weight:550 !important;
+    font-size: 16px !important;
     box-shadow: none !important;
     background-color: #061B49 !important;
     border:1px solid #fff !important; 
+    padding: 10px 15px;
+    border-radius: 5px !important;
   }
   .for-header-button:hover{
     border:1px solid #061B49 !important;

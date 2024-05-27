@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import { Routes,Route } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import { Container } from 'react-bootstrap';
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 
 
     </Routes>
+    <Footer/>
     </Container>
     
        

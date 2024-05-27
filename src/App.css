@@ -25,6 +25,10 @@
 }
 .hed3{
   font-size: 22px;
-  font-weight: 700;
-  color: #151414;
+  font-weight: 550;
+  color: #151414f5;
+}
+.footer-heading{
+  font-size: 30px;
+  font-weight: semibold;
 }

@@ -15,7 +15,7 @@ export default function Section9() {
   };
   return (
     <>
-      <Row className='d-flex justify-content-center align-items-center py-5'>
+      <Row className='d-flex justify-content-center align-items-center py-5' style={{backgroundColor:"#f8f5f5"}}>
         <Col md={10}>
           <h1 className='text-center hed1'>FAQs</h1>
           <h4 className='text-center hed4 pb-5'>Frequently Asked Questions</h4>
